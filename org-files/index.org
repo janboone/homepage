@@ -1,7 +1,7 @@
 #+Title: Jan's homepage
 
 #+attr_html: :width 100px :style float:right; margin:0px 0px 0px 20px; :alt Jan
-[[../img/boone.jpg]]
+[[./img/boone.jpg]]
 
 I work at the [[https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/economics.htm][Department of Economics]], [[https://www.tilburguniversity.edu/][Tilburg University]] specialising in competition and regulation in health care markets.
 
