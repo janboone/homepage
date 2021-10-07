@@ -1,0 +1,25 @@
+#+OPTIONS: toc:t
+#+Title: Jan's research projects
+
+**this page is still under construction**
+
+This page highlights some research projects that I am working on and
+provides links to supplementary material of projects that have been
+finished/published.
+
+* Current Projects
+
+** The effect of the deductible on health care expenditures
+
+Together with Minke Remmerswaal we try to model how health care expenditures in the Netherlands vary with the level of the deductible. We use a Bayesian model for this, estimated with [[https://docs.pymc.io/][pymc3]] in python. Using python makes it easy to generate interactive graphs. As an illustration, the following graph shows one aspect of the fit of our current model. In particular, it plots the average (log) expenditures per age-gender category in the data (dots) together with the average sample outcomes from our model (line). The graph is generated with [[http://pyviz.org/][pyviz]] using the [[https://bokeh.pydata.org/en/latest/][bokeh]] backend.
+
+#+HTML: <iframe width="840" height="400" src="./img/fit_across_ages_logs_all_ages_total_exp_deduc.html" frameborder="0" allowfullscreen></iframe>
+Left panel: women, right panel: men
+
+In April 2019 we gave a [[http://janboone.github.io/department/ENTER_2019/presentation.html][presentation]] of the paper at the [[http://www.enter-network.org/en/][ENTER Jamboree]].
+
+
+* Supplementary material
+
++ [[../../img/WebAppendix_EJ_2017.html][webappendix]] to Jan Boone and Christoph Schottmueller, 2017, 'Health insurance without single crossing: why healthy people have high coverage', Economic Journal, Vol. 127 (No. 599), pp. 84–105.
+

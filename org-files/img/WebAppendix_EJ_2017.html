@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Health insurance without single crossing: web appendix</title>
+<!-- 2017-07-10 Mon 12:53 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Org-mode">
+<meta name="author" content="Jan Boone and Christoph Schottmueller">
+
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css">
+/* org mode styles on top of twbs */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    margin-bottom: 105px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 101px;
+    background-color: #f5f5f5;
+}
+
+footer > div {
+    padding: 10px;
+}
+
+footer p {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#table-of-contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.footpara {
+    display: inline-block;
+}
+
+figcaption {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+/* from twbs docs */
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+@media (min-width: 768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+/* All levels of nav */
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    padding-left: 19px;
+    color: #A1283B;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #A1283B;
+}
+.bs-docs-sidebar .nav > .active > a,
+.bs-docs-sidebar .nav > .active:hover > a,
+.bs-docs-sidebar .nav > .active:focus > a {
+    padding-left: 18px;
+    font-weight: bold;
+    color: #A1283B;
+    background-color: transparent;
+    border-left: 2px solid #A1283B;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-docs-sidebar .nav .nav {
+    display: none; /* Hide by default, but at >768px, show it */
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav > li > a:focus {
+    padding-left: 29px;
+}
+.bs-docs-sidebar .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav > .active:focus > a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+/* Nav: third level (shown on .active) */
+.bs-docs-sidebar .nav .nav .nav {
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav .nav > li > a:focus {
+    padding-left: 39px;
+}
+.bs-docs-sidebar .nav .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
+    padding-left: 38px;
+    font-weight: 500;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+    .bs-docs-sidebar .nav > .active > ul {
+        display: block;
+    }
+    /* Widen the fixed sidebar */
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-docs-sidebar.affix {
+        position: fixed; /* Undo the static from mobile first approach */
+        top: 20px;
+    }
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute; /* Undo the static from mobile first approach */
+    }
+    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}
+</style>
+<script type="text/javascript">
+$(function() {
+    'use strict';
+
+    $('.bs-docs-sidebar li').first().addClass('active');
+
+    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
+
+    $('.bs-docs-sidebar').affix();
+});
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  displayAlign: "center",
+  displayIndent: "2em",
+  messageStyle: "none",
+  "HTML-CSS": {
+    scale: 100,
+    styles: {
+      ".MathJax_Display": {
+        "font-size": "100%"
+      }
+    }
+  },
+  "SVG": {
+    scale: 100,
+    styles: {
+      ".MathJax_SVG_Display": {
+        "font-size": "100%",
+        "margin-left": "-2.281em"
+      }
+    }
+  }
+});
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>
+</head>
+<body>
+<div id="content" class="container">
+<div class="row"><div class="col-md-9"><h1 class="title">Health insurance without single crossing: web appendix</h1>
+
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Introduction</h2>
+<div class="outline-text-2" id="text-">
+<p>
+This web appendix presents supplementary material to Jan Boone and
+Christoph Schottmueller, 2017, 'Health insurance without single
+crossing: why healthy people have high coverage', Economic Journal,
+Vol. 127 (No. 599), pp. 84–105.
+</p>
+
+<p>
+In this appendix, we show that well known
+properties of MW contracts also hold when single crossing is not
+satisfied.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Appendix to section 2.2.1: Perfect competition and Miyazaki-Wilson contracts</h2>
+<div class="outline-text-2" id="text-">
+<p>
+In this section, we show some standard results related to MW
+contracts. These results are known in the literature, see
+Wilson (1977), Miyazaki (1977) or Netzer and Scheuer (2011), but as our model slightly
+differs from the models in those papers it seems appropriate to
+replicate these results in our setting. 
+</p>
+
+<p>
+As in the main text, we refer to the following problem as the MW problem:
+</p>
+\begin{equation} \tag{MW}
+  \label{eq:wm_obj}
+  \max_{p^h,q^h,p^l,q^l}u(q^l,p^l,\theta^l)
+\end{equation}
+
+<p>
+subject to the constraints
+</p>
+\begin{gather} \label{eq:wm_ich} \tag{IC_h}
+  p^l\geq p(q^l,u(q^h,p^h,\theta ^h),\theta ^h)\\ \label{eq:wm_icl} \tag{IC_l}
+  p^h\geq p(q^h,u(q^l,p^l,\theta ^l),\theta
+  ^l)\\ \label{eq:wm_ressource} \tag{RC}
+  \phi (p^h-c(q^h,u(q^h,p^h,\theta ^h),\theta ^h))+(1-\phi)(p^l-c(q^l,u(q^l,p^l,\theta ^l),\theta ^l)) \geq 0
+\\ \label{eq:wm_no_cross_sub}
+  p^h\leq c(q^h,u(q^h,p^h,\theta ^h),\theta ^h) \tag{NCS}\\
+ q^i\in[0,1]\qquad \text{ and }\qquad p^i\in[0,w^i]\qquad\text{ for }i=h,l
+\end{gather}
+</div>
+
+
+<ul class="org-ul"><li><a id="sec-" name="sec-"></a><b>Lemma</b> <i>A solution to the MW problem exists. In such a solution, the resource constraints (RC) is binding and at least one type has full coverage. If the no-cross-subsidy constraint (NCS) is binding in the solution, then the solution is a RS equilibrium.</i><br ></li>
+
+
+<li><a id="sec-" name="sec-"></a><b>Proof</b><br ><ul class="org-ul"><li><a id="sec-" name="sec-"></a>Existence:<br ><div class="outline-text-4" id="text-">
+<p>
+The menu \((0,0,0,0)\) satisfies all constraints. Hence, the
+domain is non-empty. As it is also compact and the objective is
+continuous, a solution exists. Let \((p^h,q^h,p^l,q^l)\) be such a
+solution menu.
+</p>
+</div>
+</li>
+
+<li><a id="sec-" name="sec-"></a>(RC) is binding.<br ><div class="outline-text-4" id="text-">
+<p>
+We do this by contradiction: Suppose
+that (RC) was slack.  Note that (NCS) and (RC) imply that in this case
+\(p^l-c(q^l,u(q^l,p^l,\theta ^l),\theta ^l)>0\), i.e. positive profits
+are made on the \(\theta ^l\) types. If the incentive compatibility
+constraint for the h-type (IC_h) was slack, decreasing
+\(p^l\) and thereby increasing the objective would be feasible. As this
+would contradict optimality, we conclude that (IC_h) binds. If
+(IC_l) is slack, then decreasing \(p^l\) by \(\varepsilon > 0\) and
+decreasing \(p^h\) by \(\varepsilon '>0\) such that (IC_h) still holds is
+feasible and increases the objective value. As this would contradict
+optimality, we conclude that (IC_h) and (IC_l) would have to
+bind. Now we distinguish two cases: 
+</p>
+</div>
+<ul class="org-ul"><li><a id="sec-" name="sec-"></a>If \(p(1,u(q^l,p^l,\theta ^l),\theta ^l)\geq c(1,u(q^h,p^h,\theta^h),\theta ^h)\), then pooling both types on the contract \((c(1,u(q^h,p^h,\theta ^h),\theta ^h)-\varepsilon ,1)\) is feasible for \(\varepsilon >0\) small enough and would increase (MW).<br ></li>
+<li><a id="sec-" name="sec-"></a>If \(p(1,u(q^l,p^l,\theta ^l),\theta ^l)< c(1,u(q^h,p^h,\theta ^h),\theta^h)\), then consider the menu \((min\{c(1,u^h(q^h,p^h,\theta^h),\theta^h),p(1,u(q^h,p^h,\theta ^h),\theta ^h)\}-\varepsilon ,1,p^l-\varepsilon' ,q^l)\) where \(\varepsilon\geq0,\,\varepsilon'>0\) are chosen (i) small enough to satisfy (RC) and (ii) \(\varepsilon'\) small enough to satisfy (IC_h). This menu is feasible and leads to a higher objective value than \((p^h,q^h,p^l,q^l)\).<br ></li></ul>
+</li>
+
+<li><a id="sec-" name="sec-"></a>In both cases the optimality of \((p^h,q^h,p^l,q^l)\) is contradicted and therefore (RC) has to bind.<br ></li>
+
+<li><a id="sec-" name="sec-"></a>At least one type has to have full coverage.<br ><div class="outline-text-4" id="text-">
+<p>
+This follows almost directly from assumption 3. Suppose to the contrary
+that \(q^l<1\) and 
+\(q^h<1\) and define \(\iota=\arg\max_{k\in\{h,l\}}
+p(1,u(q^k,p^k,\theta^k),\theta^k)\). Again we distinguish two cases:
+</p>
+</div>
+
+<ul class="org-ul"><li><a id="sec-" name="sec-"></a>If \(\iota=l\), then the menu \((p^h,q^h,p(1,u(q^l,p^l,\theta^l),\theta^l)-\varepsilon ,1)\) is feasible by assumption 3. This contradicts the optimality of \((p^h,q^h,p^l,q^l)\).<br ></li>
+<li><a id="sec-" name="sec-"></a>If \(\iota=h\), we have to distinguish two subcases:<br ><ul class="org-ul"><li><a id="sec-" name="sec-"></a>First, \(c(1,u(q^h,p^h,\theta ^h),\theta ^h)\leq p(1,u(q^l,p^l,\theta ^l),\theta^l)\). Then pooling both types on the contract \((c(1,u(q^h,p^h,\theta ^h),\theta ^h)-\varepsilon ,1)\) is feasible and leads to higher (MW).<br ></li>
+<li><a id="sec-" name="sec-"></a>Second, \(c(1,u(q^h,p^h,\theta^h),\theta ^h)> p(1,u(q^l,p^l,\theta ^l),\theta^l)\). But then the menu \((min\{c(1,u^h(q^h,p^h,\theta ^h),\theta^h),p(1,u(q^h,p^h,\theta ^h),\theta^h)\}-\varepsilon ,1,p^l-\varepsilon' ,q^l)\) (where again \(\varepsilon \geq 0,\,\varepsilon '>0\) are chosen such that the incentive constraints hold) is feasible and leads to a higher objective value.<br ><div class="outline-text-6" id="text-">
+<p>
+Hence, in both cases optimality of \((p^h,q^h,p^l,q^l)\) with \(q^h,q^l<1\) is contradicted and therefore we can conclude that at least one type has full coverage. 
+</p>
+</div>
+</li></ul>
+</li></ul>
+</li>
+
+
+<li><a id="sec-" name="sec-"></a>The solution of the MW problem is a RS equilibrium whenever (NCS) binds.<br ><div class="outline-text-4" id="text-">
+<p>
+In this case, (RC) and (NCS) imply that both
+contracts make zero profits (recall that (RC) is binding). We have to
+show that there is no profitable deviation contract \((p^d,q^d)\) given
+that the MW menu \((p^h,q^h,p^l,q^l)\) is offered. There cannot be a
+profitable deviation contract which attracts the \(\theta ^l\) types:
+This would contradict the definition of the MW menu as solution to the
+MW maximization problem. Hence, we only have to check whether there is
+a profitable contract \((p^d,q^d)\) which attracts only the \(\theta ^h\)
+types. From lemma 2, we know that \(q^h=1\) and therefore
+\(p^h=c(1,u,\theta ^h)\) as (NCS) binds. Because of assumption 3, there
+cannot be a profitable contract that 
+high types prefer to \((c(1,u,\theta ^h),1)\). <i>Q.E.D.</i>
+</p>
+</div>
+</li></ul>
+</li>
+
+
+
+<li><a id="sec-" name="sec-"></a><b>Lemma</b> <i>The solution of the MW problem is a Wilson equilibrium.</i><br ></li>
+
+<li><a id="sec-" name="sec-"></a><b>Proof</b><br ><div class="outline-text-3" id="text-">
+<p>
+Say the solution to the MW problem is
+\((p^h,q^h,p^l,q^l)\). This implies that this menu satisfies the
+constraints of optimization problem (MW). In particular, we have that
+the profits per low type satisfy \(\pi^l \geq 0\), profits per high
+type \(\pi^h \leq 0\) and \(\phi \pi^h +(1-\phi) \pi^l \geq 0\). Further,
+we know from lemma 2 in the paper that \(q^h=1\) and hence \(p^h \leq
+ c(1,.,\theta^h)\) because of (NCS).
+What we have to show is that given this menu 
+there is no deviation menu that would be profitable after
+unprofitable contracts &#x2013;contracts that became unprofitable as a
+consequence of the introduction of the deviation menu&#x2013; are
+retracted. We will show this by contradiction and divide the proof in
+three cases depending on which types are attracted by the deviation
+menu. 
+</p>
+</div>
+
+<ul class="org-ul"><li><a id="sec-" name="sec-"></a>case where after deviation the l-type chooses the deviation contract \((p^d,q^d)\) while the h-type chooses an existing contract.<br ><div class="outline-text-4" id="text-">
+<p>
+That is, the h-type chooses \((\tilde p,\tilde q)\)
+which is either
+\((p^h,q^h),(p^l,q^l)\) or \((0,0)\). This implies that
+\(u(q^d,p^d,\theta^l)>u(q^l,p^l,\theta^l), \pi^d>0\) and \(\tilde \pi
+\geq 0\) (otherwise the contract \((\tilde p,\tilde q)\) would be
+retracted). We consider two cases:
+</p>
+</div>
+<ul class="org-ul"><li><a id="sec-" name="sec-"></a>\(\theta^h\) chooses \((\tilde p,\tilde q)\) with \(\tilde \pi =0\).<br ><div class="outline-text-5" id="text-">
+<p>
+But then \((\tilde p,\tilde q,p^d,q^d)\) leads to higher utility for the
+l-type, contradicting that \((p^h,q^h,p^l,q^l)\) solves (MW). 
+</p>
+</div>
+</li>
+<li><a id="sec-" name="sec-"></a>\(\theta^h\) chooses \((\tilde p,\tilde q)\) with \(\tilde \pi >0\).<br ><div class="outline-text-5" id="text-">
+<p>
+This implies that (i) \(\pi^h <0\) (hence \((p^h,q^h)\) is retracted) and
+(ii) \((\tilde p,\tilde q)=(p^l,q^l)\) (as contract \((0,0)\) yields zero profits).  
+Now one of the two following menus is feasible in the MW problem and gives \(\theta^l\) a higher utility (thereby contradicting the MW solution).
+The first menu is \((p^d,q^d, c(1,\cdot,\theta^h),1)\). By assumption 3 and \(\tilde \pi >0\),
+the contract \((c(1,\cdot,\theta^h),1)\) is preferred by \(\theta^h\) to the contract \((p^l,q^l)\).<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>
+The menu \(( p^d,q^d, c(1,\cdot,\theta^h),1)\) is feasible if the \(\theta^l\) type prefers \((p^d,q^d)\)
+to \((c(1,\cdot,\theta^h),1)\). If this is not the case, then pooling both types on \((c(1,\cdot,\theta^h),1)\) is feasible in the MW problem and leads to a higher utility for \(\theta^l\) than the alleged solution of the MW problem, i.e. we get the desired contradiction.
+</p>
+</div>
+</li></ul>
+</li>
+
+<li><a id="sec-" name="sec-"></a>case where after the deviation the h-type chooses the deviation contract \((p^d,q^d)\) with \(\pi^d >0\) while the l-type chooses an existing contract.<br ><div class="outline-text-4" id="text-">
+<p>
+This case cannot occur. As \(p^h \leq c(1,.,\theta^h), q^h=1\), by
+assumption 3 there does not exist a deviation contract that is both
+profitable and preferred by the h-type above \((p^h,q^h)\).
+</p>
+</div>
+</li>
+
+<li><a id="sec-" name="sec-"></a>third case where deviation menu \((p^{hd},q^{hd},p^{ld},q^{ld})\) with \(\phi \pi^{hd}+(1-\phi)\pi^{ld}>0\) attracts both types.<br ><div class="outline-text-4" id="text-">
+<p>
+Note that the contract \((p^l,q^l)\) will not be
+retracted because \(\pi^l \geq 0\) and the h-types choose the
+\((p^{hd},q^{hd})\) contract. Therefore, the deviation menu must lead to 
+strictly higher utility for the l-type. We consider two cases:
+</p>
+</div>
+<ul class="org-ul"><li><a id="sec-" name="sec-"></a>\(\pi^{hd} \leq 0\):<br ><div class="outline-text-5" id="text-">
+<p>
+Then \((p^{hd},q^{hd},p^{ld},q^{ld})\) leads to higher utility of the
+l-type and satisfies all constraints of the (MW) problem. This
+contradicts that \((p^h,q^h,p^l,q^l)\) solves (MW). 
+</p>
+</div>
+</li>
+<li><a id="sec-" name="sec-"></a>\(\pi^{hd} > 0\):<br ><div class="outline-text-5" id="text-">
+<p>
+This case cannot happen. As \(p^h \leq c(1,.,\theta^h), q^h=1\), by
+assumption 3 there does not exist a deviation contract that is both
+profitable and preferred by the h-type above \((p^h,q^h)\). <i>Q.E.D.</i>
+</p>
+</div>
+</li></ul>
+</li></ul>
+</li></ul>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> To see this, think of starting from \((p^l, q^l)\) and increasing coverage to 1 while adjusting the price such that \(u^h\) remains fixed. Then in a second step reduce the price such that the new contract makes zero profits.</div>
+
+
+</div>
+</div></div><div class="col-md-3"><nav id="table-of-contents">
+<div id="text-table-of-contents" class="bs-docs-sidebar">
+<ul class="nav">
+<li><a href="#sec-">Introduction</a></li>
+<li><a href="#sec-">Appendix to section 2.2.1: Perfect competition and Miyazaki-Wilson contracts</a></li>
+</ul>
+</div>
+</nav>
+</div></div></div>
+<footer id="postamble" class="">
+<div><p class="date">Date: February, 2017</p>
+<p class="author">Author: Jan Boone and Christoph Schottmueller</p>
+<p class="date">Created: 2017-07-10 Mon 12:53</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 26.0.50 (<a href="http://orgmode.org">Org-mode</a> 9.0.9)</p>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+#+Title: Jan's Blog
+
+This is my blog where I blog irregularly about economics, software that I use or other things that take my fancy at the time.
+
+---------------
+
+* Rebate vs. deductible
+
+12-4-2019
+
+
+Together with Minke Remmerswaal, Michiel Bijlsma and Rudy Douven, we published a paper in [[https://www-sciencedirect-com.tilburguniversity.idm.oclc.org/science/article/pii/S0047272719300118?via%3Dihub][the Journal of Public Economics]] comparing the effects of a rebate and a deductible on health care expenditure in the Netherlands. 
+
+Short background: the Netherlands had a major reform of its health care system in 2006. Basic insurance is mandatory and for people over 18 year old there was a rebate in 2006 and 2007 and a deductible since 2008. People below 18 do not face any demand side cost sharing (for basic insurance). 
+
+With a rebate of, say, 250 euros you do not pay for health care during the year. But if you spent 100 euro during the year, you receive a "bonus" of 150 euro by the end of the year. If you spend 250 euros or more, you do not receive anything by the end of the year.
+
+With a deductible of 250 euros, you pay the first 250 euros of health care expenditures directly out of pocket during the year, but you never pay more than the deductible level. In this sense, from 250 euros onwards, health care is free.
+
+In a simple economic model, the budget constraints induced by a rebate and a deductible are equivalent. Hence, one could expect that a deductible and a rebate have the same effect on an individual's health care expenditures.
+
+It turns out that this is not the case: a deductible has a bigger effect on health care expenditure than a rebate. To be precise, one euro of the deductible reduces healthcare expenditures 18 eurocents more than one euro of the rebate.
+
+Interestingly, we find some evidence that this is caused by liquidity constraints faced by people on lower incomes. This opens the possibility that the reduction in health care expenditure induced by a deductible can be welfare reducing for people on low incomes.
+
+
+----------------
+
+* Emacs
+
+10-4-2019 (edited 23-11-2020)
+
+Although Emacs is used a lot all over the world, it is not prevalent in Economics. I have been in the profession for more than 20 years now and I met 2 or 3 colleagues who use Emacs as well. 
+
+Admittedly, Emacs features a bit of a learning curve but nowadays there are great tutorials available including video's. If you would like to have a "gentle" introduction to a wide variety of topics, I would recommend [[https://cestlaz.github.io/stories/emacs/][Mike Zamansky's blog]]. [[https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ][System Crafters]] have a great playlist on how to configure emacs from scratch. Finally, Protesilaos Stavrou has a series of [[https://www.youtube.com/playlist?list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6][videos]] on how to configure and think about emacs.
+
+Searching the web for "emacs tutorial" will give lots of other options and Emacs has its own [[https://www.emacswiki.org/emacs/EmacsTutorial][built in tutorial]].
+
+My Emacs configuration starts from [[http://kitchingroup.cheme.cmu.edu/kitchin.html][John Kitchin's]] [[https://github.com/jkitchin/scimax][scimax]] which gives great integration with things I use on a daily basis like [[https://www.latex-project.org/][Latex]], [[https://www.youtube.com/watch?v=2t925KRBbFc][org-ref]] and [[https://github.com/jkitchin/scimax/blob/master/scimax-ipython.org][ob-ipython]]. Latex is great for generating pdf's and there are a lot of good Latex editors. However, org-mode is more flexible as it allows export to Latex, but also to html and jupyter notebooks.
+
+For my students it is relevant to know that you can write your [[https://write.as/dani/writing-a-phd-thesis-with-org-mode][MSc and PhD thesis]] in Org mode.
+
+A quick overview of Org mode features is given by [[https://www.youtube.com/watch?v=SzA2YODtgK4&t=17s][Harry Schwartz's video]]. [[https://www.youtube.com/watch?v=gfZDwYeBlO4][Alain M. Lafon's video]] gives a more "poetic" expression of the same idea not only focused on Org mode.
+
+
+
+------------------
+
+* Starting blog
+
+10-4-2019
+
+I am starting a blog using [[https://www.gnu.org/software/emacs/][Emacs]] [[https://orgmode.org/][Org mode]] /only/. This idea I borrowed from [[https://diego.codes/post/blogging-with-org/][Diego Vicente]].
+
