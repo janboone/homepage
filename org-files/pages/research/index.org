@@ -2,4 +2,4 @@
 #+OPTIONS: num:nil toc:nil
 #+Title: Jan's research
 
-This page has moved to [[../research.org][here]].
+This page has moved to [[../../research.org][here]].

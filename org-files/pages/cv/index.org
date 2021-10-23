@@ -2,4 +2,4 @@
 #+OPTIONS: num:nil toc:nil
 #+Title: Jan's CV
 
-This page has moved to [[../cv.org][here]]
+This page has moved to [[../../cv.org][here]].

@@ -2,4 +2,4 @@
 #+OPTIONS: num:nil toc:nil
 #+Title: Jan's teaching
 
-This page has moved to [[../teaching.org][here]].
+This page has moved to [[../../teaching.org][here]].
