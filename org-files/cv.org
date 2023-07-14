@@ -20,6 +20,7 @@ email: j.boone [at] uvt.nl
 
 ** Journals
 
+- Minke Remmerswaal, Jan Boone, Rudy Douven, '[[https://doi.org/10.1016/j.jhealeco.2023.102782][Minimum generosity levels in a competitive health insurance market]]', *Journal of Health Economics*, Vol. 90 (July). [[./img/Remmerswaal_Boone_Douven_JHE_2023.pdf][pdf]]
 - Jan Boone, 2019, '[[https://www-sciencedirect-com.tilburguniversity.idm.oclc.org/science/article/pii/S0167629619300517][Health provider networks with private contracts: Is there under-treatment in narrow networks?]]', *Journal of Health Economics*, Vol. 67 (September).
 - Jan Boone, Christoph Schottmueller, 2019, '[[https://onlinelibrary-wiley-com.tilburguniversity.idm.oclc.org/doi/abs/10.1111/iere.12383][Do health insurers contract the best providers? Provider networks, quality and costs]]', *International Economic Review*, Vol. 60 (3), pp. 1209--1247.
 - Minke Remmerswaal, Jan Boone, Michiel Bijlsma, Rudy Douven, 2019, '[[https://doi.org/10.1016/j.jpubeco.2019.01.008][Cost-sharing design matters: A comparison of the rebate and deductible in healthcare]]', *Journal of Public Economics*, Vol. 170 (February), pp. 83--97.[[file:./blog.org::*Rebate vs. deductible][blog]]
@@ -97,12 +98,12 @@ email: j.boone [at] uvt.nl
 - Elsevier, 20 April 2002, one of the 50 most promising young talents in the Netherlands as selected by the Elsevier weekly magazine.
 - Staatscourant Interview on competition and innovation.
 - Independent on Sunday, 30 July 2000, on the Downsizing paper in the *Economic Journal* (2000).
-- Volkskrant, 9 December 2000, [[../../img/Volkskrant.pdf][Het spel en de knikkers]] on a new way to measure competition (in Dutch)
+- Volkskrant, 9 December 2000, [[./img/Volkskrant.pdf][Het spel en de knikkers]] on a new way to measure competition (in Dutch)
 
 * Prizes and honours
 
 
-- Certificates of Excellence in Reviewing for [[../../img/CertificateOfExcellence_ijio.pdf][International Journal of Industrial Organization]] and [[../../img/ExcellenceReviewingCertificate_Labour_Economics.pdf][Labour Economics]].
+- Certificates of Excellence in Reviewing for [[./img/CertificateOfExcellence_ijio.pdf][International Journal of Industrial Organization]] and [[./img/ExcellenceReviewingCertificate_Labour_Economics.pdf][Labour Economics]].
 - Vici grant (2008-2013) "Competition in health care markets".
 - Proposal joint with Erik Brouwer and Henry van der Wiel "Market Structure, Innovation and Productivity: An Empirical Approach" was granted a subsidy by NWO/EZ in the program "Innovation Dynamics".
 - Winner together with Lans Bovenberg of the IEF educational prize 2002 for our course 'Institutions and Incentives'
