@@ -20,7 +20,8 @@ email: j.boone [at] uvt.nl
 
 ** Journals
 
-- Minke Remmerswaal, Jan Boone, Rudy Douven, '[[https://doi.org/10.1016/j.jhealeco.2023.102782][Minimum generosity levels in a competitive health insurance market]]', *Journal of Health Economics*, Vol. 90 (July). [[./img/Remmerswaal_Boone_Douven_JHE_2023.pdf][pdf]]
+- Jan Boone, Florian Schuett, Emanuele Tarantino, forthcoming, '[[https://onlinelibrary-wiley-com.tilburguniversity.idm.oclc.org/share/5R6W3MRUTHUC8ZNXGUYF?target=10.1111/joie.12351][Price Commitments in Standard Setting under Asymmetric Information]]', *Journal of Industrial Economics*.
+- Minke Remmerswaal, Jan Boone, Rudy Douven, 2023, '[[https://doi.org/10.1016/j.jhealeco.2023.102782][Minimum generosity levels in a competitive health insurance market]]', *Journal of Health Economics*, Vol. 90 (July). [[./img/Remmerswaal_Boone_Douven_JHE_2023.pdf][pdf]]
 - Jan Boone, 2019, '[[https://www-sciencedirect-com.tilburguniversity.idm.oclc.org/science/article/pii/S0167629619300517][Health provider networks with private contracts: Is there under-treatment in narrow networks?]]', *Journal of Health Economics*, Vol. 67 (September).
 - Jan Boone, Christoph Schottmueller, 2019, '[[https://onlinelibrary-wiley-com.tilburguniversity.idm.oclc.org/doi/abs/10.1111/iere.12383][Do health insurers contract the best providers? Provider networks, quality and costs]]', *International Economic Review*, Vol. 60 (3), pp. 1209--1247.
 - Minke Remmerswaal, Jan Boone, Michiel Bijlsma, Rudy Douven, 2019, '[[https://doi.org/10.1016/j.jpubeco.2019.01.008][Cost-sharing design matters: A comparison of the rebate and deductible in healthcare]]', *Journal of Public Economics*, Vol. 170 (February), pp. 83--97.[[file:./blog.org::*Rebate vs. deductible][blog]]
