@@ -118,7 +118,7 @@ email: j.boone [at] uvt.nl
 * Managerial duties
 
 
-- Head of the [[https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/economics.htm][Economics Department]] at Tilburg University (first together with [[http://www.gerlagh.nl/][Reyer Gerlagh]], then with [[https://www.tilburguniversity.edu/staff/j-a-smulders][Sjak Smulders]] (2015-2020))
+- Head of the [[https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/economics.htm][Economics Department]] at Tilburg University (first together with [[http://www.gerlagh.nl/][Reyer Gerlagh]], then with [[https://www.tilburguniversity.edu/staff/j-a-smulders][Sjak Smulders]] (2015-2020; 2022-now))
 - Member of management team department of economics (2012-2014)
 - Member of Department Evaluation Committee of the department of economics (2010-2014)
 - Coordinator of the [[http://www.tilburguniversity.edu/research/institutes-and-research-groups/tilec/research/projects-networks/nza/][NZa/Tilec research cooperation]] on competition and regulation in health care markets (2007-2012)
@@ -130,6 +130,7 @@ email: j.boone [at] uvt.nl
 
 * Other activities
 
+- chair of [[https://www.nvao.net/en/decisions/vrije-universiteit-amsterdam/b-econometrics-and-data-science][NVAO accreditation committee]] for the bachelor’s programme Econometrics and Data Science at VU: [[https://publicaties.nvao.net/prd/AV-1762_20231212_Rapport_AV_1762%20Rapport%20TNO%20wo-ba%20EDS_def.pdf][report]] (2023)
 - Associate Editor [[https://www.journals.elsevier.com/journal-of-health-economics/editorial-board/j-boone][Journal of Health Economics]]
 - Member of committee Don on risk adjustment in the Netherlands
 - [[http://www.cpb.nl/medewerkers/jan-boone][Academic advisor CPB]] (2008-present)
@@ -148,7 +149,7 @@ email: j.boone [at] uvt.nl
 
 - Oxford University (Nuffield College): MPhil and DPhil in Economics (1993-1997)
 - Erasmus University Rotterdam: MSc in Economics (Dutch 'drs.' title) (1987-1993)
-
+  
 * Current and Previous positions
 
 - Professor of Industrial Economics at Tilburg University (2004-present)
